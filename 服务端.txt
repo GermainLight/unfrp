@@ -1,0 +1,12 @@
+[common]
+authentication_method = token
+token = 【随便填就行，要和客户端保持一致】
+bind_port = 7000
+kcp_bind_port = 7000
+#log_file = /tmp/frps.log
+tcp_mux = true
+token = 【随便填就行，要和客户端保持一致】
+dashboard_port = 7500
+dashboard_user = 【随便填】
+dashboard_pwd = 【随便填】
+login_fail_exit = false
